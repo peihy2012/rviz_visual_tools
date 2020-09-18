@@ -365,6 +365,10 @@ void RvizVisualTools::setLifetime(double lifetime)
   mesh_marker_.lifetime = marker_lifetime_;
   cylinder_marker_.lifetime = marker_lifetime_;
   text_marker_.lifetime = marker_lifetime_;
+  line_list_marker_.lifetime = marker_lifetime_;
+  spheres_marker_.lifetime = marker_lifetime_;
+  triangle_marker_.lifetime = marker_lifetime_;
+  reset_marker_.lifetime = marker_lifetime_;
 }
 
 colors RvizVisualTools::getRandColor()
